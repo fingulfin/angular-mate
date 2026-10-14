@@ -26,7 +26,7 @@ export class ScrumboardService {
       labels: ['Frontend', 'Refactor'],
       assignee: {
         name: 'Dejesus Michael',
-        avatar: 'images/photos/male-01.jpg',
+        avatar: '/angular-mate/images/photos/male-01.jpg',
       },
       dueDate: '2026-08-21T00:00:00.000Z',
       subtasks: { total: 6, completed: 1 },
@@ -35,7 +35,7 @@ export class ScrumboardService {
           id: 'SCRUM-1042-1',
           author: {
             name: 'Carver Fuentes',
-            avatar: 'images/photos/male-03.jpg',
+            avatar: '/angular-mate/images/photos/male-03.jpg',
           },
           message:
             'The auth guards are the tricky part here. They still pull the module injector, so they need to move to functional guards first.',
@@ -45,7 +45,7 @@ export class ScrumboardService {
               id: 'SCRUM-1042-1-1',
               author: {
                 name: 'Dejesus Michael',
-                avatar: 'images/photos/male-01.jpg',
+                avatar: '/angular-mate/images/photos/male-01.jpg',
               },
               message:
                 'Agreed. I split that out into its own subtask so the component migration stays reviewable.',
@@ -57,7 +57,7 @@ export class ScrumboardService {
           id: 'SCRUM-1042-2',
           author: {
             name: 'Josefina Lloyd',
-            avatar: 'images/photos/female-05.jpg',
+            avatar: '/angular-mate/images/photos/female-05.jpg',
           },
           message:
             'Please keep the route paths untouched, the marketing site links straight into /auth/sign-in.',
@@ -67,7 +67,7 @@ export class ScrumboardService {
           id: 'SCRUM-1042-3',
           author: {
             name: 'Shepard Cochran',
-            avatar: 'images/photos/female-02.jpg',
+            avatar: '/angular-mate/images/photos/female-02.jpg',
           },
           message:
             'Lazy loading the reset-password screen shaved 40kb off the initial chunk in my local build.',
@@ -86,7 +86,7 @@ export class ScrumboardService {
       labels: ['Api', 'Security'],
       assignee: {
         name: 'Barrera Bradshaw',
-        avatar: 'images/photos/female-01.jpg',
+        avatar: '/angular-mate/images/photos/female-01.jpg',
       },
       dueDate: '2026-08-11T00:00:00.000Z',
       subtasks: { total: 4, completed: 0 },
@@ -95,7 +95,7 @@ export class ScrumboardService {
           id: 'SCRUM-1043-1',
           author: {
             name: 'Mcleod Wagner',
-            avatar: 'images/photos/male-04.jpg',
+            avatar: '/angular-mate/images/photos/male-04.jpg',
           },
           message:
             'Token bucket over a Redis counter means one round trip per request. Worth benchmarking before we commit to it.',
@@ -105,7 +105,7 @@ export class ScrumboardService {
               id: 'SCRUM-1043-1-1',
               author: {
                 name: 'Barrera Bradshaw',
-                avatar: 'images/photos/female-01.jpg',
+                avatar: '/angular-mate/images/photos/female-01.jpg',
               },
               message:
                 'We can batch the refill with a Lua script, that keeps it to a single call.',
@@ -115,7 +115,7 @@ export class ScrumboardService {
               id: 'SCRUM-1043-1-2',
               author: {
                 name: 'Trevino Bruce',
-                avatar: 'images/photos/male-05.jpg',
+                avatar: '/angular-mate/images/photos/male-05.jpg',
               },
               message:
                 'Do not forget the Retry-After header, the SDK clients back off on it.',
@@ -127,7 +127,7 @@ export class ScrumboardService {
           id: 'SCRUM-1043-2',
           author: {
             name: 'Dejesus Michael',
-            avatar: 'images/photos/male-01.jpg',
+            avatar: '/angular-mate/images/photos/male-01.jpg',
           },
           message:
             'Internal service keys should be exempt, otherwise the nightly sync will trip the limit.',
@@ -152,7 +152,7 @@ export class ScrumboardService {
           id: 'SCRUM-1044-1',
           author: {
             name: 'Alissa Vega',
-            avatar: 'images/photos/female-03.jpg',
+            avatar: '/angular-mate/images/photos/female-03.jpg',
           },
           message:
             'Reran it twenty times on CI last night, four failures and all of them on the payment step.',
@@ -162,7 +162,7 @@ export class ScrumboardService {
           id: 'SCRUM-1044-2',
           author: {
             name: 'Carver Fuentes',
-            avatar: 'images/photos/male-03.jpg',
+            avatar: '/angular-mate/images/photos/male-03.jpg',
           },
           message:
             'The mock resolves on a timer instead of a promise, so a slow CI runner lands after the assertion.',
@@ -172,7 +172,7 @@ export class ScrumboardService {
               id: 'SCRUM-1044-2-1',
               author: {
                 name: 'Kathrine Mccoy',
-                avatar: 'images/photos/female-06.jpg',
+                avatar: '/angular-mate/images/photos/female-06.jpg',
               },
               message:
                 'That matches the traces, the failing runs are always the ones over 400ms.',
@@ -184,7 +184,7 @@ export class ScrumboardService {
           id: 'SCRUM-1044-3',
           author: {
             name: 'Wiggins Sanford',
-            avatar: 'images/photos/female-04.jpg',
+            avatar: '/angular-mate/images/photos/female-04.jpg',
           },
           message:
             'Let us quarantine the suite until this lands, it is masking real failures in the nightly report.',
@@ -201,7 +201,7 @@ export class ScrumboardService {
       labels: ['Docs'],
       assignee: {
         name: 'Nunez Faulkner',
-        avatar: 'images/photos/male-02.jpg',
+        avatar: '/angular-mate/images/photos/male-02.jpg',
       },
       dueDate: '2026-09-02T00:00:00.000Z',
       subtasks: { total: 3, completed: 0 },
@@ -218,7 +218,7 @@ export class ScrumboardService {
       labels: ['Frontend', 'Performance'],
       assignee: {
         name: 'Shepard Cochran',
-        avatar: 'images/photos/female-02.jpg',
+        avatar: '/angular-mate/images/photos/female-02.jpg',
       },
       dueDate: null,
       subtasks: { total: 8, completed: 2 },
@@ -227,7 +227,7 @@ export class ScrumboardService {
           id: 'SCRUM-1046-1',
           author: {
             name: 'Nunez Faulkner',
-            avatar: 'images/photos/male-02.jpg',
+            avatar: '/angular-mate/images/photos/male-02.jpg',
           },
           message:
             'Intl covers three of the four formats. The relative one we only use in two places, so a tiny helper is enough.',
@@ -237,7 +237,7 @@ export class ScrumboardService {
           id: 'SCRUM-1046-2',
           author: {
             name: 'Shepard Cochran',
-            avatar: 'images/photos/female-02.jpg',
+            avatar: '/angular-mate/images/photos/female-02.jpg',
           },
           message:
             'Started with the dashboard widgets since they format the most dates. No visual diffs so far.',
@@ -266,7 +266,7 @@ export class ScrumboardService {
       labels: ['Performance'],
       assignee: {
         name: 'Alissa Vega',
-        avatar: 'images/photos/female-03.jpg',
+        avatar: '/angular-mate/images/photos/female-03.jpg',
       },
       dueDate: '2026-08-28T00:00:00.000Z',
       subtasks: { total: 2, completed: 0 },
@@ -283,7 +283,7 @@ export class ScrumboardService {
       labels: ['Frontend', 'Accessibility'],
       assignee: {
         name: 'Carver Fuentes',
-        avatar: 'images/photos/male-03.jpg',
+        avatar: '/angular-mate/images/photos/male-03.jpg',
       },
       dueDate: '2026-08-09T00:00:00.000Z',
       subtasks: { total: 5, completed: 0 },
@@ -292,7 +292,7 @@ export class ScrumboardService {
           id: 'SCRUM-1049-1',
           author: {
             name: 'Kathrine Mccoy',
-            avatar: 'images/photos/female-06.jpg',
+            avatar: '/angular-mate/images/photos/female-06.jpg',
           },
           message:
             'The grid needs a roving tabindex, otherwise every cell lands in the tab order and the page becomes unusable.',
@@ -302,7 +302,7 @@ export class ScrumboardService {
               id: 'SCRUM-1049-1-1',
               author: {
                 name: 'Carver Fuentes',
-                avatar: 'images/photos/male-03.jpg',
+                avatar: '/angular-mate/images/photos/male-03.jpg',
               },
               message:
                 'Planned, the focused cell is already tracked in a signal so it is a small step from here.',
@@ -314,7 +314,7 @@ export class ScrumboardService {
           id: 'SCRUM-1049-2',
           author: {
             name: 'Wiggins Sanford',
-            avatar: 'images/photos/female-04.jpg',
+            avatar: '/angular-mate/images/photos/female-04.jpg',
           },
           message:
             'Ctrl+Home should jump to the first cell of the first row, that is what people expect from spreadsheets.',
@@ -324,7 +324,7 @@ export class ScrumboardService {
           id: 'SCRUM-1049-3',
           author: {
             name: 'Alissa Vega',
-            avatar: 'images/photos/female-03.jpg',
+            avatar: '/angular-mate/images/photos/female-03.jpg',
           },
           message:
             'Screen reader pass is on me once the focus model is in. Ping me when it hits review.',
@@ -341,7 +341,7 @@ export class ScrumboardService {
       labels: ['Api', 'Frontend'],
       assignee: {
         name: 'Wiggins Sanford',
-        avatar: 'images/photos/female-04.jpg',
+        avatar: '/angular-mate/images/photos/female-04.jpg',
       },
       dueDate: '2026-08-14T00:00:00.000Z',
       subtasks: { total: 4, completed: 1 },
@@ -350,7 +350,7 @@ export class ScrumboardService {
           id: 'SCRUM-1050-1',
           author: {
             name: 'Nunez Faulkner',
-            avatar: 'images/photos/male-02.jpg',
+            avatar: '/angular-mate/images/photos/male-02.jpg',
           },
           message:
             'Column widths and sort order are enough for a first pass. Filters can come later.',
@@ -360,7 +360,7 @@ export class ScrumboardService {
           id: 'SCRUM-1050-2',
           author: {
             name: 'Wiggins Sanford',
-            avatar: 'images/photos/female-04.jpg',
+            avatar: '/angular-mate/images/photos/female-04.jpg',
           },
           message:
             'Storing this per workspace and not per user would surprise people who share a workspace.',
@@ -391,7 +391,7 @@ export class ScrumboardService {
       labels: ['Backend', 'Observability'],
       assignee: {
         name: 'Mcleod Wagner',
-        avatar: 'images/photos/male-04.jpg',
+        avatar: '/angular-mate/images/photos/male-04.jpg',
       },
       dueDate: '2026-08-18T00:00:00.000Z',
       subtasks: { total: 3, completed: 0 },
@@ -406,7 +406,7 @@ export class ScrumboardService {
       labels: ['Frontend', 'Design'],
       assignee: {
         name: 'Alissa Vega',
-        avatar: 'images/photos/female-03.jpg',
+        avatar: '/angular-mate/images/photos/female-03.jpg',
       },
       dueDate: '2026-08-07T00:00:00.000Z',
       subtasks: { total: 7, completed: 4 },
@@ -415,7 +415,7 @@ export class ScrumboardService {
           id: 'SCRUM-1053-1',
           author: {
             name: 'Josefina Lloyd',
-            avatar: 'images/photos/female-05.jpg',
+            avatar: '/angular-mate/images/photos/female-05.jpg',
           },
           message:
             'Final designs are in Figma. The per-channel toggles are grouped by event now instead of by channel.',
@@ -425,7 +425,7 @@ export class ScrumboardService {
               id: 'SCRUM-1053-1-1',
               author: {
                 name: 'Alissa Vega',
-                avatar: 'images/photos/female-03.jpg',
+                avatar: '/angular-mate/images/photos/female-03.jpg',
               },
               message:
                 'Building against those, the grouping maps cleanly onto the existing preferences payload.',
@@ -437,7 +437,7 @@ export class ScrumboardService {
           id: 'SCRUM-1053-2',
           author: {
             name: 'Dejesus Michael',
-            avatar: 'images/photos/male-01.jpg',
+            avatar: '/angular-mate/images/photos/male-01.jpg',
           },
           message:
             'Keep the mute-all switch above the fold, it is the most used control on the current screen.',
@@ -447,7 +447,7 @@ export class ScrumboardService {
           id: 'SCRUM-1053-3',
           author: {
             name: 'Trevino Bruce',
-            avatar: 'images/photos/male-05.jpg',
+            avatar: '/angular-mate/images/photos/male-05.jpg',
           },
           message:
             'Saving needs a debounce, the old screen fired a request on every toggle.',
@@ -466,7 +466,7 @@ export class ScrumboardService {
       labels: ['Bug', 'Backend'],
       assignee: {
         name: 'Carver Fuentes',
-        avatar: 'images/photos/male-03.jpg',
+        avatar: '/angular-mate/images/photos/male-03.jpg',
       },
       dueDate: '2026-08-05T00:00:00.000Z',
       subtasks: { total: 3, completed: 2 },
@@ -475,7 +475,7 @@ export class ScrumboardService {
           id: 'SCRUM-1054-1',
           author: {
             name: 'Mcleod Wagner',
-            avatar: 'images/photos/male-04.jpg',
+            avatar: '/angular-mate/images/photos/male-04.jpg',
           },
           message:
             'Heap snapshots show the listener count climbing by one per reconnect, so the old socket never gets collected.',
@@ -485,7 +485,7 @@ export class ScrumboardService {
               id: 'SCRUM-1054-1-1',
               author: {
                 name: 'Carver Fuentes',
-                avatar: 'images/photos/male-03.jpg',
+                avatar: '/angular-mate/images/photos/male-03.jpg',
               },
               message:
                 'Found it. The teardown runs on close but the reconnect timer fires before close resolves.',
@@ -495,7 +495,7 @@ export class ScrumboardService {
               id: 'SCRUM-1054-1-2',
               author: {
                 name: 'Barrera Bradshaw',
-                avatar: 'images/photos/female-01.jpg',
+                avatar: '/angular-mate/images/photos/female-01.jpg',
               },
               message:
                 'Worth adding a listener-count assertion to the socket tests so this cannot come back.',
@@ -507,7 +507,7 @@ export class ScrumboardService {
           id: 'SCRUM-1054-2',
           author: {
             name: 'Kathrine Mccoy',
-            avatar: 'images/photos/female-06.jpg',
+            avatar: '/angular-mate/images/photos/female-06.jpg',
           },
           message:
             'Support has three tickets about tabs getting sluggish after a few hours. Likely the same root cause.',
@@ -517,7 +517,7 @@ export class ScrumboardService {
           id: 'SCRUM-1054-3',
           author: {
             name: 'Carver Fuentes',
-            avatar: 'images/photos/male-03.jpg',
+            avatar: '/angular-mate/images/photos/male-03.jpg',
           },
           message:
             'Fix is up, ran a soak test overnight and the listener count stayed flat across 200 reconnects.',
@@ -534,7 +534,7 @@ export class ScrumboardService {
       labels: ['Api'],
       assignee: {
         name: 'Nunez Faulkner',
-        avatar: 'images/photos/male-02.jpg',
+        avatar: '/angular-mate/images/photos/male-02.jpg',
       },
       dueDate: '2026-08-12T00:00:00.000Z',
       subtasks: { total: 5, completed: 3 },
@@ -543,7 +543,7 @@ export class ScrumboardService {
           id: 'SCRUM-1055-1',
           author: {
             name: 'Trevino Bruce',
-            avatar: 'images/photos/male-05.jpg',
+            avatar: '/angular-mate/images/photos/male-05.jpg',
           },
           message:
             'Large exports should stream rather than buffer, some workspaces have well over a million rows.',
@@ -553,7 +553,7 @@ export class ScrumboardService {
               id: 'SCRUM-1055-1-1',
               author: {
                 name: 'Nunez Faulkner',
-                avatar: 'images/photos/male-02.jpg',
+                avatar: '/angular-mate/images/photos/male-02.jpg',
               },
               message:
                 'It streams already. The open question is whether we cap the row count or let it run.',
@@ -572,7 +572,7 @@ export class ScrumboardService {
       labels: ['Security'],
       assignee: {
         name: 'Barrera Bradshaw',
-        avatar: 'images/photos/female-01.jpg',
+        avatar: '/angular-mate/images/photos/female-01.jpg',
       },
       dueDate: null,
       subtasks: null,
@@ -587,7 +587,7 @@ export class ScrumboardService {
       labels: ['Refactor'],
       assignee: {
         name: 'Shepard Cochran',
-        avatar: 'images/photos/female-02.jpg',
+        avatar: '/angular-mate/images/photos/female-02.jpg',
       },
       dueDate: '2026-08-06T00:00:00.000Z',
       subtasks: { total: 2, completed: 2 },
@@ -596,7 +596,7 @@ export class ScrumboardService {
           id: 'SCRUM-1057-1',
           author: {
             name: 'Shepard Cochran',
-            avatar: 'images/photos/female-02.jpg',
+            avatar: '/angular-mate/images/photos/female-02.jpg',
           },
           message:
             'Four call sites now share the helper. The odd one out is the audit log, it pages by cursor instead of offset.',
@@ -606,7 +606,7 @@ export class ScrumboardService {
           id: 'SCRUM-1057-2',
           author: {
             name: 'Josefina Lloyd',
-            avatar: 'images/photos/female-05.jpg',
+            avatar: '/angular-mate/images/photos/female-05.jpg',
           },
           message:
             'Left a couple of notes on the PR, mostly naming. The logic itself reads well.',
@@ -625,7 +625,7 @@ export class ScrumboardService {
       labels: ['Backend', 'Performance'],
       assignee: {
         name: 'Mcleod Wagner',
-        avatar: 'images/photos/male-04.jpg',
+        avatar: '/angular-mate/images/photos/male-04.jpg',
       },
       dueDate: '2026-08-08T00:00:00.000Z',
       subtasks: { total: 4, completed: 4 },
@@ -640,7 +640,7 @@ export class ScrumboardService {
       labels: ['Design', 'Frontend'],
       assignee: {
         name: 'Wiggins Sanford',
-        avatar: 'images/photos/female-04.jpg',
+        avatar: '/angular-mate/images/photos/female-04.jpg',
       },
       dueDate: null,
       subtasks: null,
@@ -657,7 +657,7 @@ export class ScrumboardService {
       labels: ['Testing', 'Bug'],
       assignee: {
         name: 'Dejesus Michael',
-        avatar: 'images/photos/male-01.jpg',
+        avatar: '/angular-mate/images/photos/male-01.jpg',
       },
       dueDate: '2026-08-04T00:00:00.000Z',
       subtasks: { total: 6, completed: 5 },
@@ -666,7 +666,7 @@ export class ScrumboardService {
           id: 'SCRUM-1060-1',
           author: {
             name: 'Wiggins Sanford',
-            avatar: 'images/photos/female-04.jpg',
+            avatar: '/angular-mate/images/photos/female-04.jpg',
           },
           message:
             'Arabic and Hebrew both overflow. German is fine but the header wraps onto a second line.',
@@ -676,7 +676,7 @@ export class ScrumboardService {
               id: 'SCRUM-1060-1-1',
               author: {
                 name: 'Dejesus Michael',
-                avatar: 'images/photos/male-01.jpg',
+                avatar: '/angular-mate/images/photos/male-01.jpg',
               },
               message:
                 'The totals column is absolutely positioned, that is what breaks under RTL. Reworking it as a grid.',
@@ -688,7 +688,7 @@ export class ScrumboardService {
           id: 'SCRUM-1060-2',
           author: {
             name: 'Kathrine Mccoy',
-            avatar: 'images/photos/female-06.jpg',
+            avatar: '/angular-mate/images/photos/female-06.jpg',
           },
           message:
             'Added sample invoices for all twelve locales to the fixtures folder.',
@@ -705,7 +705,7 @@ export class ScrumboardService {
       labels: ['Testing'],
       assignee: {
         name: 'Alissa Vega',
-        avatar: 'images/photos/female-03.jpg',
+        avatar: '/angular-mate/images/photos/female-03.jpg',
       },
       dueDate: '2026-08-06T00:00:00.000Z',
       subtasks: { total: 9, completed: 6 },
@@ -726,7 +726,7 @@ export class ScrumboardService {
           id: 'SCRUM-1062-1',
           author: {
             name: 'Mcleod Wagner',
-            avatar: 'images/photos/male-04.jpg',
+            avatar: '/angular-mate/images/photos/male-04.jpg',
           },
           message:
             'Baseline from before the split is in the shared drive, we should compare p95 against that rather than against staging.',
@@ -736,7 +736,7 @@ export class ScrumboardService {
           id: 'SCRUM-1062-2',
           author: {
             name: 'Trevino Bruce',
-            avatar: 'images/photos/male-05.jpg',
+            avatar: '/angular-mate/images/photos/male-05.jpg',
           },
           message:
             'Needs an owner before Monday, the shard split is blocked on these numbers.',
@@ -753,7 +753,7 @@ export class ScrumboardService {
       labels: ['DevOps'],
       assignee: {
         name: 'Mcleod Wagner',
-        avatar: 'images/photos/male-04.jpg',
+        avatar: '/angular-mate/images/photos/male-04.jpg',
       },
       dueDate: '2026-07-30T00:00:00.000Z',
       subtasks: { total: 4, completed: 4 },
@@ -768,7 +768,7 @@ export class ScrumboardService {
       labels: ['Bug', 'Frontend'],
       assignee: {
         name: 'Shepard Cochran',
-        avatar: 'images/photos/female-02.jpg',
+        avatar: '/angular-mate/images/photos/female-02.jpg',
       },
       dueDate: '2026-07-29T00:00:00.000Z',
       subtasks: null,
@@ -777,7 +777,7 @@ export class ScrumboardService {
           id: 'SCRUM-1064-1',
           author: {
             name: 'Josefina Lloyd',
-            avatar: 'images/photos/female-05.jpg',
+            avatar: '/angular-mate/images/photos/female-05.jpg',
           },
           message:
             'Verified on a 320px viewport, the tooltip wraps now instead of clipping. Thanks for the quick turnaround.',
@@ -796,7 +796,7 @@ export class ScrumboardService {
       labels: ['Frontend', 'Release'],
       assignee: {
         name: 'Nunez Faulkner',
-        avatar: 'images/photos/male-02.jpg',
+        avatar: '/angular-mate/images/photos/male-02.jpg',
       },
       dueDate: '2026-07-27T00:00:00.000Z',
       subtasks: { total: 5, completed: 5 },
@@ -805,7 +805,7 @@ export class ScrumboardService {
           id: 'SCRUM-1065-1',
           author: {
             name: 'Barrera Bradshaw',
-            avatar: 'images/photos/female-01.jpg',
+            avatar: '/angular-mate/images/photos/female-01.jpg',
           },
           message:
             'Flag is live for internal accounts. No errors in the first day, sign-in success rate is unchanged.',
@@ -815,7 +815,7 @@ export class ScrumboardService {
               id: 'SCRUM-1065-1-1',
               author: {
                 name: 'Nunez Faulkner',
-                avatar: 'images/photos/male-02.jpg',
+                avatar: '/angular-mate/images/photos/male-02.jpg',
               },
               message:
                 'Bumping to ten percent of new signups tomorrow morning, will watch the funnel for a couple of days.',
@@ -825,7 +825,7 @@ export class ScrumboardService {
               id: 'SCRUM-1065-1-2',
               author: {
                 name: 'Josefina Lloyd',
-                avatar: 'images/photos/female-05.jpg',
+                avatar: '/angular-mate/images/photos/female-05.jpg',
               },
               message:
                 'Copy tweak on the password hint shipped with it, the old wording confused a few testers.',
@@ -837,7 +837,7 @@ export class ScrumboardService {
           id: 'SCRUM-1065-2',
           author: {
             name: 'Dejesus Michael',
-            avatar: 'images/photos/male-01.jpg',
+            avatar: '/angular-mate/images/photos/male-01.jpg',
           },
           message:
             'Rolled out to everyone and the old screen is deleted. Closing this one.',

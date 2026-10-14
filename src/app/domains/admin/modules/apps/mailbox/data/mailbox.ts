@@ -24,7 +24,7 @@ const mails: Mail[] = [
     from: {
       name: 'Josefina Lloyd',
       email: 'josefina.lloyd@company.com',
-      avatar: 'images/photos/female-05.jpg',
+      avatar: '/angular-mate/images/photos/female-05.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Design review notes from this morning',
@@ -45,7 +45,7 @@ const mails: Mail[] = [
         from: {
           name: 'Josefina Lloyd',
           email: 'josefina.lloyd@company.com',
-          avatar: 'images/photos/female-05.jpg',
+          avatar: '/angular-mate/images/photos/female-05.jpg',
         },
         date: at(1, 15, 42),
         body: [
@@ -58,7 +58,7 @@ const mails: Mail[] = [
         from: {
           name: 'Brian Hughes',
           email: 'hughes.brian@company.com',
-          avatar: 'images/photos/male-02.jpg',
+          avatar: '/angular-mate/images/photos/male-02.jpg',
         },
         date: at(1, 16, 20),
         body: [
@@ -72,7 +72,7 @@ const mails: Mail[] = [
     from: {
       name: 'Dejesus Michael',
       email: 'dejesus.michael@company.com',
-      avatar: 'images/photos/male-01.jpg',
+      avatar: '/angular-mate/images/photos/male-01.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Auth module migration is ready for review',
@@ -92,7 +92,7 @@ const mails: Mail[] = [
         from: {
           name: 'Dejesus Michael',
           email: 'dejesus.michael@company.com',
-          avatar: 'images/photos/male-01.jpg',
+          avatar: '/angular-mate/images/photos/male-01.jpg',
         },
         date: at(3, 10, 15),
         body: [
@@ -104,7 +104,7 @@ const mails: Mail[] = [
         from: {
           name: 'Brian Hughes',
           email: 'hughes.brian@company.com',
-          avatar: 'images/photos/male-02.jpg',
+          avatar: '/angular-mate/images/photos/male-02.jpg',
         },
         date: at(3, 11, 2),
         body: [
@@ -115,7 +115,7 @@ const mails: Mail[] = [
         from: {
           name: 'Dejesus Michael',
           email: 'dejesus.michael@company.com',
-          avatar: 'images/photos/male-01.jpg',
+          avatar: '/angular-mate/images/photos/male-01.jpg',
         },
         date: at(1, 14, 48),
         body: [
@@ -150,7 +150,7 @@ const mails: Mail[] = [
     from: {
       name: 'Carver Fuentes',
       email: 'carver.fuentes@company.com',
-      avatar: 'images/photos/male-03.jpg',
+      avatar: '/angular-mate/images/photos/male-03.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Re: Conference booth schedule',
@@ -170,7 +170,7 @@ const mails: Mail[] = [
     from: {
       name: 'Sarah',
       email: 'sarah.mail@gmail.com',
-      avatar: 'images/photos/female-01.jpg',
+      avatar: '/angular-mate/images/photos/female-01.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Lunch on Friday?',
@@ -190,7 +190,7 @@ const mails: Mail[] = [
         from: {
           name: 'Brian Hughes',
           email: 'hughes.brian@company.com',
-          avatar: 'images/photos/male-02.jpg',
+          avatar: '/angular-mate/images/photos/male-02.jpg',
         },
         date: at(3, 20, 31),
         body: [
@@ -224,7 +224,7 @@ const mails: Mail[] = [
     from: {
       name: 'Barrera Bradford',
       email: 'barrera.bradford@company.com',
-      avatar: 'images/photos/male-06.jpg',
+      avatar: '/angular-mate/images/photos/male-06.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Q3 roadmap draft',
@@ -245,7 +245,7 @@ const mails: Mail[] = [
     from: {
       name: 'Adeline Snider',
       email: 'adeline.snider@company.com',
-      avatar: 'images/photos/female-04.jpg',
+      avatar: '/angular-mate/images/photos/female-04.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Reminder: performance reviews due next week',
@@ -287,7 +287,7 @@ const mails: Mail[] = [
     from: {
       name: 'Wilder Gonzales',
       email: 'wilder.gonzales@company.com',
-      avatar: 'images/photos/male-04.jpg',
+      avatar: '/angular-mate/images/photos/male-04.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Flaky e2e tests on the orders suite',
@@ -308,7 +308,7 @@ const mails: Mail[] = [
     from: {
       name: 'Louella Wise',
       email: 'louella.wise@company.com',
-      avatar: 'images/photos/female-03.jpg',
+      avatar: '/angular-mate/images/photos/female-03.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Welcome pack for the new starters',
@@ -329,7 +329,7 @@ const mails: Mail[] = [
     from: {
       name: 'Dad',
       email: 'r.hughes@oldmail.com',
-      avatar: 'images/photos/male-09.jpg',
+      avatar: '/angular-mate/images/photos/male-09.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Sunday dinner',
@@ -371,7 +371,7 @@ const mails: Mail[] = [
     from: {
       name: 'Josefina Lloyd',
       email: 'josefina.lloyd@company.com',
-      avatar: 'images/photos/female-05.jpg',
+      avatar: '/angular-mate/images/photos/female-05.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Component library versioning proposal',
@@ -413,7 +413,7 @@ const mails: Mail[] = [
     from: {
       name: 'Alvarado Turner',
       email: 'alvarado.turner@company.com',
-      avatar: 'images/photos/male-05.jpg',
+      avatar: '/angular-mate/images/photos/male-05.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'API rate limiting rollout plan',
@@ -434,7 +434,7 @@ const mails: Mail[] = [
     from: {
       name: 'Estelle Bass',
       email: 'estelle.bass@company.com',
-      avatar: 'images/photos/female-02.jpg',
+      avatar: '/angular-mate/images/photos/female-02.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Customer feedback digest — week 32',
@@ -497,7 +497,7 @@ const mails: Mail[] = [
     from: {
       name: 'Josefina Lloyd',
       email: 'josefina.lloyd@company.com',
-      avatar: 'images/photos/female-05.jpg',
+      avatar: '/angular-mate/images/photos/female-05.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Icon set license renewal',
@@ -536,7 +536,7 @@ const mails: Mail[] = [
     from: {
       name: 'Barrera Bradford',
       email: 'barrera.bradford@company.com',
-      avatar: 'images/photos/male-06.jpg',
+      avatar: '/angular-mate/images/photos/male-06.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Team offsite: save the date',
@@ -557,7 +557,7 @@ const mails: Mail[] = [
     from: {
       name: 'Marjorie Poole',
       email: 'marjorie.poole@company.com',
-      avatar: 'images/photos/female-06.jpg',
+      avatar: '/angular-mate/images/photos/female-06.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Accessibility audit results',
@@ -599,7 +599,7 @@ const mails: Mail[] = [
     from: {
       name: 'Sarah',
       email: 'sarah.mail@gmail.com',
-      avatar: 'images/photos/female-01.jpg',
+      avatar: '/angular-mate/images/photos/female-01.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Photos from the weekend',
@@ -622,7 +622,7 @@ const mails: Mail[] = [
     from: {
       name: 'Wilder Gonzales',
       email: 'wilder.gonzales@company.com',
-      avatar: 'images/photos/male-04.jpg',
+      avatar: '/angular-mate/images/photos/male-04.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'Re: Flaky e2e tests on the orders suite',
@@ -663,7 +663,7 @@ const mails: Mail[] = [
     from: {
       name: 'Adeline Snider',
       email: 'adeline.snider@company.com',
-      avatar: 'images/photos/female-04.jpg',
+      avatar: '/angular-mate/images/photos/female-04.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'New expense policy — short version',
@@ -684,7 +684,7 @@ const mails: Mail[] = [
     from: {
       name: 'Dad',
       email: 'r.hughes@oldmail.com',
-      avatar: 'images/photos/male-09.jpg',
+      avatar: '/angular-mate/images/photos/male-09.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'The printer again',
@@ -705,7 +705,7 @@ const mails: Mail[] = [
     from: {
       name: 'Estelle Bass',
       email: 'estelle.bass@company.com',
-      avatar: 'images/photos/female-02.jpg',
+      avatar: '/angular-mate/images/photos/female-02.jpg',
     },
     to: 'hughes.brian@company.com',
     subject: 'User interview recordings ready',
@@ -728,7 +728,7 @@ const mails: Mail[] = [
     from: {
       name: 'Brian Hughes',
       email: 'hughes.brian@company.com',
-      avatar: 'images/photos/male-02.jpg',
+      avatar: '/angular-mate/images/photos/male-02.jpg',
     },
     to: 'dejesus.michael@company.com',
     subject: 'Re: Auth module migration is ready for review',
@@ -749,7 +749,7 @@ const mails: Mail[] = [
     from: {
       name: 'Brian Hughes',
       email: 'hughes.brian@company.com',
-      avatar: 'images/photos/male-02.jpg',
+      avatar: '/angular-mate/images/photos/male-02.jpg',
     },
     to: 'sarah.mail@gmail.com',
     subject: 'Re: Lunch on Friday?',
@@ -769,7 +769,7 @@ const mails: Mail[] = [
     from: {
       name: 'Brian Hughes',
       email: 'hughes.brian@company.com',
-      avatar: 'images/photos/male-02.jpg',
+      avatar: '/angular-mate/images/photos/male-02.jpg',
     },
     to: 'hello@devconf.eu',
     subject: 'Re: Your speaker proposal was accepted!',
@@ -792,7 +792,7 @@ const mails: Mail[] = [
     from: {
       name: 'Brian Hughes',
       email: 'hughes.brian@company.com',
-      avatar: 'images/photos/male-02.jpg',
+      avatar: '/angular-mate/images/photos/male-02.jpg',
     },
     to: 'barrera.bradford@company.com',
     subject: 'Thoughts on the Q3 roadmap',
@@ -812,7 +812,7 @@ const mails: Mail[] = [
     from: {
       name: 'Brian Hughes',
       email: 'hughes.brian@company.com',
-      avatar: 'images/photos/male-02.jpg',
+      avatar: '/angular-mate/images/photos/male-02.jpg',
     },
     to: 'members@cityfitness.com',
     subject: 'Freeze request',

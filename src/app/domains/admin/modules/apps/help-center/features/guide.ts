@@ -65,7 +65,7 @@ import { RouterLink } from '@angular/router';
         <h3>Header Level 3</h3>
 
         <img
-          src="images/pages/help-center/image-1.jpg"
+          src="/angular-mate/images/pages/help-center/image-1.jpg"
           alt="Guide image"
         />
         <p class="text-muted">

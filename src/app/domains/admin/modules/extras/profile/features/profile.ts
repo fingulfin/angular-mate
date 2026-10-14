@@ -40,7 +40,7 @@ import { MatTooltip } from '@angular/material/tooltip';
             <!-- Avatar -->
             <img
               class="-mt-12 size-24 shrink-0 rounded-full ring-4 ring-white sm:-mt-16 sm:size-32 dark:ring-neutral-800"
-              src="images/photos/brian-hughes.jpg"
+              src="/angular-mate/images/photos/brian-hughes.jpg"
               alt="Brian Hughes"
             />
 
@@ -189,7 +189,7 @@ import { MatTooltip } from '@angular/material/tooltip';
               <div class="flex items-start gap-x-4">
                 <img
                   class="size-10 shrink-0 rounded-full"
-                  src="images/photos/brian-hughes.jpg"
+                  src="/angular-mate/images/photos/brian-hughes.jpg"
                   alt="Brian Hughes"
                 />
                 <mat-form-field class="flex-auto">
@@ -379,23 +379,23 @@ export default class Profile {
     {
       id: 'POST-1',
       author: 'Brian Hughes',
-      avatar: 'images/photos/brian-hughes.jpg',
+      avatar: '/angular-mate/images/photos/brian-hughes.jpg',
       date: '2 hours ago',
       body: [
         'Spent the morning polishing the new mailbox layout. Inline reading panes beat drawers every time. Fewer moving parts, calmer UI. Sometimes the best interaction is the one you remove.',
       ],
-      image: 'images/cards/14-640x480.jpg',
+      image: '/angular-mate/images/cards/14-640x480.jpg',
       likes: 48,
       comments: [
         {
           author: 'Josefina Lloyd',
-          avatar: 'images/photos/female-02.jpg',
+          avatar: '/angular-mate/images/photos/female-02.jpg',
           date: '1 hour ago',
           text: 'Completely agree. The drawer version always felt like it was hiding the content I actually wanted to read.',
           replies: [
             {
               author: 'Brian Hughes',
-              avatar: 'images/photos/brian-hughes.jpg',
+              avatar: '/angular-mate/images/photos/brian-hughes.jpg',
               date: '45 minutes ago',
               text: 'Exactly. The empty pane state was the missing piece, it makes the whole thing feel intentional.',
             },
@@ -406,7 +406,7 @@ export default class Profile {
     {
       id: 'POST-2',
       author: 'Brian Hughes',
-      avatar: 'images/photos/brian-hughes.jpg',
+      avatar: '/angular-mate/images/photos/brian-hughes.jpg',
       date: 'Yesterday',
       body: [
         'Hot take: container queries quietly ended a decade of breakpoint gymnastics. Components that adapt to their container instead of the viewport just compose better.',
@@ -417,19 +417,19 @@ export default class Profile {
       comments: [
         {
           author: 'Dejesus Michael',
-          avatar: 'images/photos/male-03.jpg',
+          avatar: '/angular-mate/images/photos/male-03.jpg',
           date: '20 hours ago',
           text: 'Deleting more CSS than you write is the real senior developer milestone.',
           replies: [
             {
               author: 'Brian Hughes',
-              avatar: 'images/photos/brian-hughes.jpg',
+              avatar: '/angular-mate/images/photos/brian-hughes.jpg',
               date: '19 hours ago',
               text: 'Putting that on my performance review.',
             },
             {
               author: 'Sarah Boone',
-              avatar: 'images/photos/female-04.jpg',
+              avatar: '/angular-mate/images/photos/female-04.jpg',
               date: '18 hours ago',
               text: 'Waiting for the follow up post where the deleted CSS comes back from code review.',
             },
@@ -437,7 +437,7 @@ export default class Profile {
         },
         {
           author: 'Roger Murray',
-          avatar: 'images/photos/male-05.jpg',
+          avatar: '/angular-mate/images/photos/male-05.jpg',
           date: '16 hours ago',
           text: 'Any gotchas with nested containers? We hit a few odd sizing loops on our end.',
         },
@@ -446,17 +446,17 @@ export default class Profile {
     {
       id: 'POST-3',
       author: 'Brian Hughes',
-      avatar: 'images/photos/brian-hughes.jpg',
+      avatar: '/angular-mate/images/photos/brian-hughes.jpg',
       date: '3 days ago',
       body: [
         'Team offsite recap: two days, one whiteboard, and a roadmap we are actually excited about. Calendar and mailbox have shipped, profile pages are up next.',
       ],
-      image: 'images/cards/18-640x480.jpg',
+      image: '/angular-mate/images/cards/18-640x480.jpg',
       likes: 86,
       comments: [
         {
           author: 'Tina Harris',
-          avatar: 'images/photos/female-01.jpg',
+          avatar: '/angular-mate/images/photos/female-01.jpg',
           date: '2 days ago',
           text: 'That whiteboard photo does not do justice to the chaos it contained.',
         },

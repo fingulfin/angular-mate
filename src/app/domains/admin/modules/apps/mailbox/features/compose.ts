@@ -139,7 +139,7 @@ export default class Compose {
           from: {
             name: 'Brian Hughes',
             email: 'hughes.brian@company.com',
-            avatar: 'images/photos/male-02.jpg',
+            avatar: '/angular-mate/images/photos/male-02.jpg',
           },
           to: value.to,
           subject: value.subject,

@@ -41,7 +41,7 @@ import { MatIcon } from '@angular/material/icon';
           <div class="flex flex-col gap-y-4">
             <img
               class="w-24"
-              src="images/logo/logo-text.svg"
+              src="/angular-mate/images/logo/logo-text.svg"
               alt="Fuse"
             />
             <div class="leading-relaxed text-sm text-neutral-500">

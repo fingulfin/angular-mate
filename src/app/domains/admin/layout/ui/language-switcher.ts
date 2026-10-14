@@ -23,7 +23,7 @@ import { LangDefinition, TranslocoService } from '@jsverse/transloco';
       [matMenuTriggerFor]="langMenu"
     >
       <img
-        [src]="'/images/flags/' + getLangFlag(this.activeLang) + '.svg'"
+        [src]="'/angular-mate/images/flags/' + getLangFlag(this.activeLang) + '.svg'"
         alt="{{ this.activeLang }}"
         width="20"
         height="15"
@@ -38,7 +38,7 @@ import { LangDefinition, TranslocoService } from '@jsverse/transloco';
           <span class="flex items-center gap-x-3">
             <span class="flex items-center gap-x-2">
               <img
-                [src]="'/images/flags/' + getLangFlag(lang.id) + '.svg'"
+                [src]="'/angular-mate/images/flags/' + getLangFlag(lang.id) + '.svg'"
                 alt="{{ this.activeLang }}"
                 width="20"
                 height="15"

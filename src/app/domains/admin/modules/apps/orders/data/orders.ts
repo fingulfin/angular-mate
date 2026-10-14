@@ -9,7 +9,7 @@ export class OrdersService {
       customer: {
         name: 'Dejesus Michael',
         email: 'dejesusmichael@example.com',
-        avatar: 'images/photos/male-01.jpg',
+        avatar: '/angular-mate/images/photos/male-01.jpg',
       },
       date: '2026-07-28T09:24:00.000Z',
       status: 'delivered',
@@ -37,7 +37,7 @@ export class OrdersService {
       customer: {
         name: 'Barrera Bradshaw',
         email: 'barrerabradshaw@example.com',
-        avatar: 'images/photos/female-01.jpg',
+        avatar: '/angular-mate/images/photos/female-01.jpg',
       },
       date: '2026-07-28T14:02:00.000Z',
       status: 'shipped',
@@ -65,7 +65,7 @@ export class OrdersService {
       customer: {
         name: 'Beck Mahoney',
         email: 'beckmahoney@example.com',
-        avatar: 'images/photos/male-02.jpg',
+        avatar: '/angular-mate/images/photos/male-02.jpg',
       },
       date: '2026-07-27T18:47:00.000Z',
       status: 'processing',
@@ -98,7 +98,7 @@ export class OrdersService {
       customer: {
         name: 'Blair Lewis',
         email: 'blairlewis@example.com',
-        avatar: 'images/photos/female-02.jpg',
+        avatar: '/angular-mate/images/photos/female-02.jpg',
       },
       date: '2026-07-27T11:15:00.000Z',
       status: 'pending',
@@ -121,7 +121,7 @@ export class OrdersService {
       customer: {
         name: 'Boyle Bullock',
         email: 'boylebullock@example.com',
-        avatar: 'images/photos/male-03.jpg',
+        avatar: '/angular-mate/images/photos/male-03.jpg',
       },
       date: '2026-07-26T08:33:00.000Z',
       status: 'delivered',
@@ -149,7 +149,7 @@ export class OrdersService {
       customer: {
         name: 'Buckner Melton',
         email: 'bucknermelton@example.com',
-        avatar: 'images/photos/male-04.jpg',
+        avatar: '/angular-mate/images/photos/male-04.jpg',
       },
       date: '2026-07-26T16:58:00.000Z',
       status: 'refunded',
@@ -172,7 +172,7 @@ export class OrdersService {
       customer: {
         name: 'Campos Nolan',
         email: 'camposnolan@example.com',
-        avatar: 'images/photos/female-03.jpg',
+        avatar: '/angular-mate/images/photos/female-03.jpg',
       },
       date: '2026-07-25T13:12:00.000Z',
       status: 'shipped',
@@ -200,7 +200,7 @@ export class OrdersService {
       customer: {
         name: 'Carey Best',
         email: 'careybest@example.com',
-        avatar: 'images/photos/male-05.jpg',
+        avatar: '/angular-mate/images/photos/male-05.jpg',
       },
       date: '2026-07-24T10:05:00.000Z',
       status: 'delivered',
@@ -228,7 +228,7 @@ export class OrdersService {
       customer: {
         name: 'Carver Nichols',
         email: 'carvernichols@example.com',
-        avatar: 'images/photos/female-04.jpg',
+        avatar: '/angular-mate/images/photos/female-04.jpg',
       },
       date: '2026-07-24T19:41:00.000Z',
       status: 'processing',
@@ -251,7 +251,7 @@ export class OrdersService {
       customer: {
         name: 'Cathy Sanchez',
         email: 'cathysanchez@example.com',
-        avatar: 'images/photos/female-05.jpg',
+        avatar: '/angular-mate/images/photos/female-05.jpg',
       },
       date: '2026-07-23T07:26:00.000Z',
       status: 'pending',
@@ -279,7 +279,7 @@ export class OrdersService {
       customer: {
         name: 'Chandler Vasquez',
         email: 'chandlervasquez@example.com',
-        avatar: 'images/photos/male-06.jpg',
+        avatar: '/angular-mate/images/photos/male-06.jpg',
       },
       date: '2026-07-22T15:19:00.000Z',
       status: 'shipped',
@@ -307,7 +307,7 @@ export class OrdersService {
       customer: {
         name: 'Christy Larson',
         email: 'christylarson@example.com',
-        avatar: 'images/photos/female-06.jpg',
+        avatar: '/angular-mate/images/photos/female-06.jpg',
       },
       date: '2026-07-22T09:08:00.000Z',
       status: 'delivered',
@@ -335,7 +335,7 @@ export class OrdersService {
       customer: {
         name: 'Copeland Nieves',
         email: 'copelandnieves@example.com',
-        avatar: 'images/photos/male-07.jpg',
+        avatar: '/angular-mate/images/photos/male-07.jpg',
       },
       date: '2026-07-21T12:44:00.000Z',
       status: 'processing',
@@ -358,7 +358,7 @@ export class OrdersService {
       customer: {
         name: 'Cross Ferrell',
         email: 'crossferrell@example.com',
-        avatar: 'images/photos/male-08.jpg',
+        avatar: '/angular-mate/images/photos/male-08.jpg',
       },
       date: '2026-07-20T17:37:00.000Z',
       status: 'delivered',
@@ -386,7 +386,7 @@ export class OrdersService {
       customer: {
         name: 'Daisy Whitley',
         email: 'daisywhitley@example.com',
-        avatar: 'images/photos/female-07.jpg',
+        avatar: '/angular-mate/images/photos/female-07.jpg',
       },
       date: '2026-07-19T08:55:00.000Z',
       status: 'refunded',
@@ -414,7 +414,7 @@ export class OrdersService {
       customer: {
         name: 'Delaney Duncan',
         email: 'delaneyduncan@example.com',
-        avatar: 'images/photos/female-08.jpg',
+        avatar: '/angular-mate/images/photos/female-08.jpg',
       },
       date: '2026-07-18T14:23:00.000Z',
       status: 'shipped',
@@ -447,7 +447,7 @@ export class OrdersService {
       customer: {
         name: 'Dickerson Rice',
         email: 'dickersonrice@example.com',
-        avatar: 'images/photos/male-09.jpg',
+        avatar: '/angular-mate/images/photos/male-09.jpg',
       },
       date: '2026-07-17T11:02:00.000Z',
       status: 'delivered',
@@ -470,7 +470,7 @@ export class OrdersService {
       customer: {
         name: 'Ella Barlow',
         email: 'ellabarlow@example.com',
-        avatar: 'images/photos/female-09.jpg',
+        avatar: '/angular-mate/images/photos/female-09.jpg',
       },
       date: '2026-07-16T16:31:00.000Z',
       status: 'pending',
@@ -498,7 +498,7 @@ export class OrdersService {
       customer: {
         name: 'Emerson Hale',
         email: 'emersonhale@example.com',
-        avatar: 'images/photos/male-10.jpg',
+        avatar: '/angular-mate/images/photos/male-10.jpg',
       },
       date: '2026-07-15T09:12:00.000Z',
       status: 'delivered',
@@ -526,7 +526,7 @@ export class OrdersService {
       customer: {
         name: 'Fern Gallagher',
         email: 'ferngallagher@example.com',
-        avatar: 'images/photos/female-10.jpg',
+        avatar: '/angular-mate/images/photos/female-10.jpg',
       },
       date: '2026-07-15T15:48:00.000Z',
       status: 'processing',
@@ -554,7 +554,7 @@ export class OrdersService {
       customer: {
         name: 'Foster Hines',
         email: 'fosterhines@example.com',
-        avatar: 'images/photos/male-11.jpg',
+        avatar: '/angular-mate/images/photos/male-11.jpg',
       },
       date: '2026-07-14T08:37:00.000Z',
       status: 'shipped',
@@ -577,7 +577,7 @@ export class OrdersService {
       customer: {
         name: 'Gemma Frost',
         email: 'gemmafrost@example.com',
-        avatar: 'images/photos/female-11.jpg',
+        avatar: '/angular-mate/images/photos/female-11.jpg',
       },
       date: '2026-07-14T13:56:00.000Z',
       status: 'pending',
@@ -605,7 +605,7 @@ export class OrdersService {
       customer: {
         name: 'Gilbert Nash',
         email: 'gilbertnash@example.com',
-        avatar: 'images/photos/male-12.jpg',
+        avatar: '/angular-mate/images/photos/male-12.jpg',
       },
       date: '2026-07-13T10:29:00.000Z',
       status: 'delivered',
@@ -633,7 +633,7 @@ export class OrdersService {
       customer: {
         name: 'Greer Cochran',
         email: 'greercochran@example.com',
-        avatar: 'images/photos/female-12.jpg',
+        avatar: '/angular-mate/images/photos/female-12.jpg',
       },
       date: '2026-07-13T17:14:00.000Z',
       status: 'refunded',
@@ -656,7 +656,7 @@ export class OrdersService {
       customer: {
         name: 'Hardin Pruitt',
         email: 'hardinpruitt@example.com',
-        avatar: 'images/photos/male-13.jpg',
+        avatar: '/angular-mate/images/photos/male-13.jpg',
       },
       date: '2026-07-12T09:41:00.000Z',
       status: 'delivered',
@@ -684,7 +684,7 @@ export class OrdersService {
       customer: {
         name: 'Harriet Boone',
         email: 'harrietboone@example.com',
-        avatar: 'images/photos/female-13.jpg',
+        avatar: '/angular-mate/images/photos/female-13.jpg',
       },
       date: '2026-07-12T14:07:00.000Z',
       status: 'processing',
@@ -712,7 +712,7 @@ export class OrdersService {
       customer: {
         name: 'Hayden Vaughn',
         email: 'haydenvaughn@example.com',
-        avatar: 'images/photos/male-14.jpg',
+        avatar: '/angular-mate/images/photos/male-14.jpg',
       },
       date: '2026-07-11T11:33:00.000Z',
       status: 'shipped',
@@ -740,7 +740,7 @@ export class OrdersService {
       customer: {
         name: 'Hollis Duke',
         email: 'hollisduke@example.com',
-        avatar: 'images/photos/female-14.jpg',
+        avatar: '/angular-mate/images/photos/female-14.jpg',
       },
       date: '2026-07-11T16:22:00.000Z',
       status: 'delivered',
@@ -763,7 +763,7 @@ export class OrdersService {
       customer: {
         name: 'Horton Meyers',
         email: 'hortonmeyers@example.com',
-        avatar: 'images/photos/male-15.jpg',
+        avatar: '/angular-mate/images/photos/male-15.jpg',
       },
       date: '2026-07-10T08:18:00.000Z',
       status: 'pending',
@@ -791,7 +791,7 @@ export class OrdersService {
       customer: {
         name: 'Imogen Rowe',
         email: 'imogenrowe@example.com',
-        avatar: 'images/photos/female-15.jpg',
+        avatar: '/angular-mate/images/photos/female-15.jpg',
       },
       date: '2026-07-10T13:44:00.000Z',
       status: 'delivered',
@@ -819,7 +819,7 @@ export class OrdersService {
       customer: {
         name: 'Ingram Blake',
         email: 'ingramblake@example.com',
-        avatar: 'images/photos/male-16.jpg',
+        avatar: '/angular-mate/images/photos/male-16.jpg',
       },
       date: '2026-07-09T10:56:00.000Z',
       status: 'processing',
@@ -847,7 +847,7 @@ export class OrdersService {
       customer: {
         name: 'Iris Callahan',
         email: 'iriscallahan@example.com',
-        avatar: 'images/photos/female-16.jpg',
+        avatar: '/angular-mate/images/photos/female-16.jpg',
       },
       date: '2026-07-09T15:39:00.000Z',
       status: 'shipped',
@@ -870,7 +870,7 @@ export class OrdersService {
       customer: {
         name: 'Jarvis Pope',
         email: 'jarvispope@example.com',
-        avatar: 'images/photos/male-17.jpg',
+        avatar: '/angular-mate/images/photos/male-17.jpg',
       },
       date: '2026-07-08T09:05:00.000Z',
       status: 'delivered',
@@ -898,7 +898,7 @@ export class OrdersService {
       customer: {
         name: 'Josie Vance',
         email: 'josievance@example.com',
-        avatar: 'images/photos/female-17.jpg',
+        avatar: '/angular-mate/images/photos/female-17.jpg',
       },
       date: '2026-07-08T14:51:00.000Z',
       status: 'refunded',
@@ -926,7 +926,7 @@ export class OrdersService {
       customer: {
         name: 'Kendrick Alston',
         email: 'kendrickalston@example.com',
-        avatar: 'images/photos/male-18.jpg',
+        avatar: '/angular-mate/images/photos/male-18.jpg',
       },
       date: '2026-07-07T11:27:00.000Z',
       status: 'pending',
@@ -949,7 +949,7 @@ export class OrdersService {
       customer: {
         name: 'Kerry Winslow',
         email: 'kerrywinslow@example.com',
-        avatar: 'images/photos/female-18.jpg',
+        avatar: '/angular-mate/images/photos/female-18.jpg',
       },
       date: '2026-07-07T16:13:00.000Z',
       status: 'delivered',
@@ -977,7 +977,7 @@ export class OrdersService {
       customer: {
         name: 'Knox Ferguson',
         email: 'knoxferguson@example.com',
-        avatar: 'images/photos/male-19.jpg',
+        avatar: '/angular-mate/images/photos/male-19.jpg',
       },
       date: '2026-07-06T08:49:00.000Z',
       status: 'shipped',
@@ -1005,7 +1005,7 @@ export class OrdersService {
       customer: {
         name: 'Laurel Hoffman',
         email: 'laurelhoffman@example.com',
-        avatar: 'images/photos/female-19.jpg',
+        avatar: '/angular-mate/images/photos/female-19.jpg',
       },
       date: '2026-07-06T13:02:00.000Z',
       status: 'processing',
@@ -1028,7 +1028,7 @@ export class OrdersService {
       customer: {
         name: 'Landon Sweeney',
         email: 'landonsweeney@example.com',
-        avatar: 'images/photos/male-20.jpg',
+        avatar: '/angular-mate/images/photos/male-20.jpg',
       },
       date: '2026-07-05T10:44:00.000Z',
       status: 'delivered',
@@ -1056,7 +1056,7 @@ export class OrdersService {
       customer: {
         name: 'Lena Whitfield',
         email: 'lenawhitfield@example.com',
-        avatar: 'images/photos/female-20.jpg',
+        avatar: '/angular-mate/images/photos/female-20.jpg',
       },
       date: '2026-07-05T15:31:00.000Z',
       status: 'pending',
@@ -1084,7 +1084,7 @@ export class OrdersService {
       customer: {
         name: 'Lyle Kendall',
         email: 'lylekendall@example.com',
-        avatar: 'images/photos/male-01.jpg',
+        avatar: '/angular-mate/images/photos/male-01.jpg',
       },
       date: '2026-07-04T09:16:00.000Z',
       status: 'shipped',
@@ -1112,7 +1112,7 @@ export class OrdersService {
       customer: {
         name: 'Mabel Cortez',
         email: 'mabelcortez@example.com',
-        avatar: 'images/photos/female-01.jpg',
+        avatar: '/angular-mate/images/photos/female-01.jpg',
       },
       date: '2026-07-04T14:38:00.000Z',
       status: 'delivered',
@@ -1135,7 +1135,7 @@ export class OrdersService {
       customer: {
         name: 'Marcus Ivey',
         email: 'marcusivey@example.com',
-        avatar: 'images/photos/male-02.jpg',
+        avatar: '/angular-mate/images/photos/male-02.jpg',
       },
       date: '2026-07-03T11:09:00.000Z',
       status: 'refunded',
@@ -1163,7 +1163,7 @@ export class OrdersService {
       customer: {
         name: 'Marlowe Pace',
         email: 'marlowepace@example.com',
-        avatar: 'images/photos/female-02.jpg',
+        avatar: '/angular-mate/images/photos/female-02.jpg',
       },
       date: '2026-07-03T16:47:00.000Z',
       status: 'processing',
@@ -1186,7 +1186,7 @@ export class OrdersService {
       customer: {
         name: 'Merrick Slade',
         email: 'merrickslade@example.com',
-        avatar: 'images/photos/male-03.jpg',
+        avatar: '/angular-mate/images/photos/male-03.jpg',
       },
       date: '2026-07-02T08:23:00.000Z',
       status: 'delivered',
@@ -1214,7 +1214,7 @@ export class OrdersService {
       customer: {
         name: 'Mira Donovan',
         email: 'miradonovan@example.com',
-        avatar: 'images/photos/female-03.jpg',
+        avatar: '/angular-mate/images/photos/female-03.jpg',
       },
       date: '2026-07-02T13:55:00.000Z',
       status: 'shipped',
@@ -1237,7 +1237,7 @@ export class OrdersService {
       customer: {
         name: 'Nolan Reyes',
         email: 'nolanreyes@example.com',
-        avatar: 'images/photos/male-04.jpg',
+        avatar: '/angular-mate/images/photos/male-04.jpg',
       },
       date: '2026-07-01T10:12:00.000Z',
       status: 'pending',
@@ -1265,7 +1265,7 @@ export class OrdersService {
       customer: {
         name: 'Nora Kimball',
         email: 'norakimball@example.com',
-        avatar: 'images/photos/female-04.jpg',
+        avatar: '/angular-mate/images/photos/female-04.jpg',
       },
       date: '2026-07-01T15:26:00.000Z',
       status: 'delivered',
@@ -1293,7 +1293,7 @@ export class OrdersService {
       customer: {
         name: 'Orson Beckett',
         email: 'orsonbeckett@example.com',
-        avatar: 'images/photos/male-05.jpg',
+        avatar: '/angular-mate/images/photos/male-05.jpg',
       },
       date: '2026-06-30T09:38:00.000Z',
       status: 'processing',
@@ -1316,7 +1316,7 @@ export class OrdersService {
       customer: {
         name: 'Odette Sharpe',
         email: 'odettesharpe@example.com',
-        avatar: 'images/photos/female-05.jpg',
+        avatar: '/angular-mate/images/photos/female-05.jpg',
       },
       date: '2026-06-30T14:04:00.000Z',
       status: 'refunded',
@@ -1339,7 +1339,7 @@ export class OrdersService {
       customer: {
         name: 'Paxton Mercer',
         email: 'paxtonmercer@example.com',
-        avatar: 'images/photos/male-06.jpg',
+        avatar: '/angular-mate/images/photos/male-06.jpg',
       },
       date: '2026-06-29T11:47:00.000Z',
       status: 'delivered',
@@ -1367,7 +1367,7 @@ export class OrdersService {
       customer: {
         name: 'Penelope Quinn',
         email: 'penelopequinn@example.com',
-        avatar: 'images/photos/female-06.jpg',
+        avatar: '/angular-mate/images/photos/female-06.jpg',
       },
       date: '2026-06-29T16:19:00.000Z',
       status: 'shipped',
@@ -1395,7 +1395,7 @@ export class OrdersService {
       customer: {
         name: 'Quentin Ashby',
         email: 'quentinashby@example.com',
-        avatar: 'images/photos/male-07.jpg',
+        avatar: '/angular-mate/images/photos/male-07.jpg',
       },
       date: '2026-06-28T08:52:00.000Z',
       status: 'pending',
@@ -1418,7 +1418,7 @@ export class OrdersService {
       customer: {
         name: 'Quinn Larkin',
         email: 'quinnlarkin@example.com',
-        avatar: 'images/photos/female-07.jpg',
+        avatar: '/angular-mate/images/photos/female-07.jpg',
       },
       date: '2026-06-28T13:35:00.000Z',
       status: 'delivered',
@@ -1441,7 +1441,7 @@ export class OrdersService {
       customer: {
         name: 'Rafferty Cline',
         email: 'raffertycline@example.com',
-        avatar: 'images/photos/male-08.jpg',
+        avatar: '/angular-mate/images/photos/male-08.jpg',
       },
       date: '2026-06-27T10:21:00.000Z',
       status: 'processing',
@@ -1474,7 +1474,7 @@ export class OrdersService {
       customer: {
         name: 'Rosalind Ware',
         email: 'rosalindware@example.com',
-        avatar: 'images/photos/female-08.jpg',
+        avatar: '/angular-mate/images/photos/female-08.jpg',
       },
       date: '2026-06-27T15:58:00.000Z',
       status: 'shipped',
@@ -1497,7 +1497,7 @@ export class OrdersService {
       customer: {
         name: 'Sawyer Bridges',
         email: 'sawyerbridges@example.com',
-        avatar: 'images/photos/male-09.jpg',
+        avatar: '/angular-mate/images/photos/male-09.jpg',
       },
       date: '2026-06-26T09:07:00.000Z',
       status: 'delivered',
@@ -1525,7 +1525,7 @@ export class OrdersService {
       customer: {
         name: 'Saoirse Nolan',
         email: 'saoirsenolan@example.com',
-        avatar: 'images/photos/female-09.jpg',
+        avatar: '/angular-mate/images/photos/female-09.jpg',
       },
       date: '2026-06-26T14:43:00.000Z',
       status: 'refunded',
@@ -1553,7 +1553,7 @@ export class OrdersService {
       customer: {
         name: 'Silas Whitman',
         email: 'silaswhitman@example.com',
-        avatar: 'images/photos/male-10.jpg',
+        avatar: '/angular-mate/images/photos/male-10.jpg',
       },
       date: '2026-06-25T11:15:00.000Z',
       status: 'pending',
@@ -1576,7 +1576,7 @@ export class OrdersService {
       customer: {
         name: 'Sylvie Ramsey',
         email: 'sylvieramsey@example.com',
-        avatar: 'images/photos/female-10.jpg',
+        avatar: '/angular-mate/images/photos/female-10.jpg',
       },
       date: '2026-06-25T16:34:00.000Z',
       status: 'delivered',

@@ -87,7 +87,7 @@ export class AcademyService {
 </p>
 <figure>
     <img
-        src="images/pages/help-center/image-1.jpg"
+        src="/angular-mate/images/pages/help-center/image-1.jpg"
         alt="">
     <figcaption>
         Accusamus blanditiis labque delectus esse et eum excepturi, impedit ipsam iste maiores minima mollitia, nihil obcaecati

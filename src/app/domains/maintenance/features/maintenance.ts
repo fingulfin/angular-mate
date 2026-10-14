@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
       <!-- Logo -->
       <img
         class="w-12"
-        src="/images/logo/logo.svg"
+        src="/angular-mate/images/logo/logo.svg"
         alt="Fuse logo"
       />
 

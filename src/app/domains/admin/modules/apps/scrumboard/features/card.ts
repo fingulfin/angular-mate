@@ -234,7 +234,7 @@ import Scrumboard from '@/app/domains/admin/modules/apps/scrumboard/features/scr
             <div class="flex items-start">
               <img
                 class="mt-2 size-8 shrink-0 rounded-full object-cover"
-                src="images/photos/male-01.jpg"
+                src="/angular-mate/images/photos/male-01.jpg"
                 alt="Your avatar"
               />
               <mat-form-field class="ml-3 w-full">

@@ -442,10 +442,10 @@ export default class Scrumboard {
     none: 'bg-neutral-300 dark:bg-neutral-600',
   };
   protected avatars = [
-    'images/photos/male-01.jpg',
-    'images/photos/female-01.jpg',
-    'images/photos/male-03.jpg',
-    'images/photos/female-03.jpg',
+    '/angular-mate/images/photos/male-01.jpg',
+    '/angular-mate/images/photos/female-01.jpg',
+    '/angular-mate/images/photos/male-03.jpg',
+    '/angular-mate/images/photos/female-03.jpg',
   ];
   selectedCard = signal<Card | null>(null);
 
