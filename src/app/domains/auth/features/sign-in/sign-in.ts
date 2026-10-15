@@ -41,7 +41,8 @@ export default class AuthSignIn {
    // private readonly equation = 'c = \\iint\\pm\\sqrt{a^2 + b^2}';
    // private readonly equation = '\\cfrac{a}{1 + \\cfrac{1}{b}}';
   //private readonly equation = '\\Large{\\textcolor{Navy}{a \\over b}}';
-  private readonly equation =String.raw`\begin{bmatrix}a & b \\ c & d\end{bmatrix}`;
+  //private readonly equation =String.raw`\begin{bmatrix}a & b \\ c & d\end{bmatrix}`;
+  private readonly equation = String.raw`\frac{2x}{5-2}`;
   protected readonly equationHtml = this.sanitizer.bypassSecurityTrustHtml(
     katex.renderToString(this.equation, { displayMode: true })
   );

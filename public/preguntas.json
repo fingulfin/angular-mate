@@ -1,0 +1,68 @@
+[
+    {
+        "sections": [
+            {
+                "number": 1,
+                "title": "Comprendo la lectura",
+                "questions": [
+                    {
+                        "id": "A",
+                        "question": "¿Dónde jugaba Ana?",
+                        "options": [
+                            "En la escuela",
+                            "En su casa",
+                            "En un torneo"
+                        ]
+                    },
+                    {
+                        "id": "B",
+                        "question": "¿Qué le pasó en el primer tiempo?",
+                        "options": [
+                            "Hizo dos goles",
+                            "Falló dos tiros",
+                            "No jugó"
+                        ]
+                    },
+                    {
+                        "id": "C",
+                        "question": "¿Qué hizo Ana en el segundo tiempo?",
+                        "options": [
+                            "Tiró al arco",
+                            "Dio un pase",
+                            "Se fue del partido"
+                        ]
+                    },
+                    {
+                        "id": "D",
+                        "question": "¿Quién anotó el gol?",
+                        "options": [
+                            "Ana",
+                            "La entrenadora",
+                            "Sofía"
+                        ]
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "title": "Ordena la historia",
+                "instruction": "Escribe 1, 2, 3 y 4.",
+                "statements": [
+                    "Ana falló dos tiros y se puso triste.",
+                    "Ana pasó el balón a Sofía.",
+                    "El equipo celebró el gol juntas.",
+                    "La entrenadora les dio un consejo."
+                ]
+            },
+            {
+                "number": 3,
+                "title": "Completa",
+                "sentences": [
+                    "Ana falló dos __________ en el primer tiempo.",
+                    "En el descanso, la entrenadora les dijo que se __________ y pasaran el ____.",
+                    "Sofía anotó el __________ del partido."
+                ]
+            }
+        ]
+    }
+]
