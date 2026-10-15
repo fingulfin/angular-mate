@@ -42,7 +42,13 @@ export default class AuthSignIn {
    // private readonly equation = '\\cfrac{a}{1 + \\cfrac{1}{b}}';
   //private readonly equation = '\\Large{\\textcolor{Navy}{a \\over b}}';
   //private readonly equation =String.raw`\begin{bmatrix}a & b \\ c & d\end{bmatrix}`;
-  private readonly equation = String.raw`\frac{2x}{5-2}`;
+
+  //private readonly equation = String.raw`\frac{2x}{5-2}`;
+  //private readonly equation = String.raw`\binom{n}{k} = \frac{n!}{k!(n-k)!}`;
+  //private readonly equation = String.raw`10{6\over9}`;
+  //private readonly equation = String.raw`\int\limits^2_0x^2dx`;
+  //private readonly equation = String.raw`z = \left[2\left(x + y^2\right) -{2x\over3}\right]`;
+  private readonly equation = String.raw`\begin{pmatrix}2&4x\\3&1\end{pmatrix}\times\begin{pmatrix}2y&8\\1&3\end{pmatrix}`;
   protected readonly equationHtml = this.sanitizer.bypassSecurityTrustHtml(
     katex.renderToString(this.equation, { displayMode: true })
   );
