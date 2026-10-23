@@ -1,7 +1,6 @@
-# Fuse - Angular Starter Kit & Admin Template
+# Sciences, Math and Lectures
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli).
-
+The image N1-01-06.png has a text content structure which is similat to json file "plantilla-preguntas.json", create a json file with the name of the image and whose content adapts to that of file "plantilla-preguntas.json"
 ## Development server
 
 Este pryecto usa  katex `https://katex.org/docs/supported`
