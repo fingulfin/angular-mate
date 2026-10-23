@@ -1,4 +1,4 @@
-# Sciences, Math and Lectures
+# Lecturas
 
 The image N1-01-06.png has a text content structure which is similat to json file "plantilla-preguntas.json", create a json file with the name of the image and whose content adapts to that of file "plantilla-preguntas.json"
 ## Development server
